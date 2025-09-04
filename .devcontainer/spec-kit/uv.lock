@@ -3,7 +3,7 @@ revision = 2
 requires-python = "==3.13.5"
 
 [[package]]
-name = "ansible-workspace"
+name = "spec-kit-workspace"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

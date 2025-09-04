@@ -10,6 +10,7 @@ ARG WORKDIR=/app
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     bash-completion=1:2.11-6 \
+    git=1:2.39.5-0+deb12u2 \
     sudo=1.9.13p3-1+deb12u2 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*

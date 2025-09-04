@@ -1,0 +1,13 @@
+[project]
+name = "spec-kit-workspace"
+version = "0.1.0"
+description = "Development and execution environment for Spec Kit"
+readme = "README.md"
+requires-python = "==3.13.5"
+dependencies = ["specify-cli"]
+
+[dependency-groups]
+dev = []
+
+[tool.uv.sources]
+specify-cli = { git = "https://github.com/github/spec-kit.git" }

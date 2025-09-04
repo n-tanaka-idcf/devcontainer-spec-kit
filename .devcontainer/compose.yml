@@ -1,0 +1,14 @@
+---
+services:
+  spec-kit:
+    build:
+      context: spec-kit/
+      dockerfile: Dockerfile
+      args:
+        - UID
+        - GID
+    tty: true
+    stdin_open: true
+    restart: always
+    volumes:
+      - ../:/workspace
